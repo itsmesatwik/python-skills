@@ -15,3 +15,12 @@ list = ["stuff", "lol", "yylol"]
 #count the number of occurrances of a keyword in a string
 
 text.count("keyword")
+
+def acronym(text):
+    text = text.upper()
+    list = text.split()
+    acronym = ""
+    for word in list:
+        acronym += word[1]
+    return acronym
+
