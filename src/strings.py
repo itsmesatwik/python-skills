@@ -24,3 +24,10 @@ def acronym(text):
         acronym += word[0]
     return acronym
 
+
+def ceasarCyph(text, rot):
+    cyphrTxt = ""
+    for char in text:
+        if !char.isSpace():
+            cyphrTxt += chr(ord(char) + rot%26)
+    return cyphrTxt
