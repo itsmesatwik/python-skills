@@ -21,6 +21,6 @@ def acronym(text):
     list = text.split()
     acronym = ""
     for word in list:
-        acronym += word[1]
+        acronym += word[0]
     return acronym
 
