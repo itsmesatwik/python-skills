@@ -16,4 +16,12 @@ list3 = oneToten + listRand
 
 list3.append("lol")
 
+#multi dimenstional lists
+
+multiDlist = [[0] * 10 for i in range(10)]
+
+for i in range(10):
+    for j in range(10):
+        list[i][j] = i*j
+
 
