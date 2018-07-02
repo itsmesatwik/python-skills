@@ -24,4 +24,10 @@ for i in range(10):
     for j in range(10):
         list[i][j] = i*j
 
+list4 = [1,2,3,4,5,6,7,6123,4,21,53,123,5,12,41,4,2,3,4,5,5,6]
 
+#sort a list
+list4.sort()
+
+#reverse a list
+list4.reverse()
