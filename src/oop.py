@@ -17,3 +17,31 @@ class Dog:
 
 
 main()
+
+
+
+#getters and setters
+
+class Square:
+    def __init__(self, size=1):
+        self.size = size
+
+    @property
+    def size(self):
+        return self.__size
+
+    @size.setter
+    def size(self,value):
+        if value.isFloat():
+            self.__size = value
+        else:
+            print("xD")
+    def getArea(self):
+        return int(self.__size) * int(self.__size)
+
+def main():
+    square = Square()
+    square.size(10)
+    square.getArea()
+
+main()
